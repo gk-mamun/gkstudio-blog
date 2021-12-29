@@ -401,9 +401,9 @@ button:focus {
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
-  background: url(../img/banner/home-banner.jpg) no-repeat scroll center left;
+  background: url(../img/banner/home-banner-2.jpg) no-repeat scroll center left;
   background-color: #f9f9ff;
-  background-size: contain;
+  background-size: cover;
 }
 
 .home_banner_area .blog_text_slider {
@@ -554,12 +554,12 @@ button:focus {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  padding: 75px 0px;
+  padding: 50px 0px;
 }
 
 .banner_area .banner_inner .banner_content {
   background: #fff;
-  padding: 95px 0px;
+  padding: 50px 0px;
 }
 
 .banner_area .banner_inner .banner_content h2 {
@@ -3714,7 +3714,7 @@ h6 {
 
 .blog_style1.small .blog_text .blog_text_inner .cat .cat_btn {
   display: block;
-  width: 86px;
+  width: fit-content;
   margin-bottom: 12px;
 }
 

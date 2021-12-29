@@ -18,6 +18,8 @@ class Post(models.Model):
     body = models.TextField()
     category = models.ForeignKey(Category, null=True, blank=True, on_delete=models.SET_NULL)
     # author = 
+    # featured_img = 
+    # slider = 
     tags = models.ManyToManyField('Tag', blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
